@@ -16,9 +16,9 @@ Crear una página web pensado para mostrar en español.
 
 Reproducir la captura que viene a continuación.
 
-Para centrar un elemento __inline-block__ o __block__ se utiliza la property _margin: auto_.
+Para centrar un elemento "inline-block" o "block" se utiliza la propiedad "margin" con valor "auto".
 
-Utilizar la fuente _geist_ que facilitamos en los enlaces de las instrucciones
+Utilizar la fuente "geist" que facilitamos en los enlaces de las instrucciones
 ```
 ## Captura
 
@@ -27,5 +27,5 @@ Utilizar la fuente _geist_ que facilitamos en los enlaces de las instrucciones
 ## Enlaces
 - [] _El código debe ser enteramente desarrollado en HTML y CSS._
 - [] _Cargar la fuente Geist del siguiente [enlace](https://vercel.com/font/sans)._
-Para este punte consultar [font-face](https://developer.mozilla.org/es/docs/Web/CSS/@font-face) de __MDN__
+Para ver como cargar una fuente consultar [font-face](https://developer.mozilla.org/es/docs/Web/CSS/@font-face) de __MDN__
 
