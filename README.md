@@ -25,7 +25,16 @@ Utilizar la fuente "geist" que facilitamos en los enlaces de las instrucciones
 ![Captura del modelo caja](screenshot-tecnichal-trial.png)
 
 ## Enlaces
-- [] _El código debe ser enteramente desarrollado en HTML y CSS._
 - [] _Cargar la fuente Geist del siguiente [enlace](https://vercel.com/font/sans)._
-Para ver como cargar una fuente consultar [font-face](https://developer.mozilla.org/es/docs/Web/CSS/@font-face) de __MDN__
+- [] __@font-face__. Muy recomendable ver el siguiente enlace de [La regla @font-face](https://lenguajecss.com/css/fuentes-y-tipografias/regla-font-face/#la-regla-font-face)
+
+  ```
+  @font-face {
+    font-family: 'Geist Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Geist Regular') 
+      url(./Geist/Geist-Regular.otf) format(truetype);
+  }
+  ```
 
