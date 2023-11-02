@@ -26,7 +26,7 @@ Utilizar la fuente "geist" que facilitamos en los enlaces de las instrucciones
 
 ## Enlaces
 - [] _Cargar la fuente Geist del siguiente [enlace](https://vercel.com/font/sans)._
-- [] __@font-face__. Muy recomendable ver el siguiente enlace de [La regla @font-face](https://lenguajecss.com/css/fuentes-y-tipografias/regla-font-face/#la-regla-font-face)
+- [] __@font-face__. Muy recomendable ver el siguiente enlace de [La regla @font-face](https://lenguajecss.com/css/fuentes-y-tipografias/regla-font-face/#la-regla-font-face) y el 👁️ VÍDEO 👁️
 
 ### Ejemplo de carga de fuente en CSS
 
