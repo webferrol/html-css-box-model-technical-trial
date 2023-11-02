@@ -28,13 +28,16 @@ Utilizar la fuente "geist" que facilitamos en los enlaces de las instrucciones
 - [] _Cargar la fuente Geist del siguiente [enlace](https://vercel.com/font/sans)._
 - [] __@font-face__. Muy recomendable ver el siguiente enlace de [La regla @font-face](https://lenguajecss.com/css/fuentes-y-tipografias/regla-font-face/#la-regla-font-face)
 
+### Ejemplo de carga de fuente en CSS
+
   ```
   @font-face {
     font-family: 'Geist Regular';
-    font-weight: 400;
+    src: url('Geist-Regular.woff2') format('woff2'),
+        url('Geist-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    src: local('Geist Regular') 
-      url(./Geist/Geist-Regular.otf) format(truetype);
+    font-display: swap;
   }
   ```
 
