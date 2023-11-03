@@ -33,11 +33,14 @@ Utilizar la fuente "geist" que facilitamos en los enlaces de las instrucciones
   ```
   @font-face {
     font-family: 'Geist Regular';
-    src: url('Geist-Regular.woff2') format('woff2'),
+    src: local('Geist Regular),
+        url('Geist-Regular.woff2') format('woff2'),
         url('Geist-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   ```
+
+  Si observamos con detenimiento estamos cargando dos ficheros (uno con extensión *woff2* y otro con extensión *woff*). Estamos realizando lo que se llama un **fallback** en caso de que por ejemplo el _user agent_ no soporte un formato determinado de fuente o que por alguna razón haya problemas de carga de uno de los archivos.
 
