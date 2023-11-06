@@ -1,4 +1,4 @@
-# 🥈Prueba HTML y CSS de Box Model
+# 🥉Prueba HTML y CSS de Box Model
 
 Te damos la bienvenida a la primera prueba técnica del proceso de selección como __Trainee Software Developer con HTML y CSS__.
 
